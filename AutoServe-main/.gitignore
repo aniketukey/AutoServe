@@ -1,0 +1,82 @@
+# ---------------------------------------------------------
+# 1. Java & Spring Boot (Backend)
+# ---------------------------------------------------------
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Maven Wrapper (Optional: keep these if you want the wrapper, ignore if not)
+!.mvn/wrapper/maven-wrapper.jar
+
+# ---------------------------------------------------------
+# 2. Node.js & React (Frontend)
+# ---------------------------------------------------------
+# Dependencies (The most important line!)
+node_modules/
+
+# Production build output
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---------------------------------------------------------
+# 3. IDE & Editor Files (Do not commit your local settings)
+# ---------------------------------------------------------
+# Eclipse / STS (Spring Tool Suite)
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.classpath
+.project
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# ---------------------------------------------------------
+# 4. Operating System Files
+# ---------------------------------------------------------
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---------------------------------------------------------
+# 5. SECURITY & ENVIRONMENT VARIABLES (CRITICAL)
+# ---------------------------------------------------------
+# Never commit files with real API keys or DB passwords
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# If you use a separate properties file for secrets
+application-secrets.properties
+application.properties
+
+src/main/resources/application.properties

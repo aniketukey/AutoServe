@@ -1,0 +1,15 @@
+# Maven / Spring Boot
+target/
+*.log
+
+# IDE
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive config
+src/main/resources/application.properties

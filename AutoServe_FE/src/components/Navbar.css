@@ -1,0 +1,63 @@
+/* Navbar.css */
+
+/* Default Logged-In Navbar (White) */
+.navbar-custom-light {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Logged-Out Navbar (Dark/Premium) */
+.navbar-custom-dark {
+    background-color: #0f172a;
+    /* Matches Landing Page Hero Start */
+    color: #ffffff;
+}
+
+.navbar-custom-dark .navbar-brand,
+.navbar-custom-dark .nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+    transition: color 0.2s ease;
+}
+
+.navbar-custom-dark .nav-link:hover {
+    color: #ffffff !important;
+}
+
+.navbar-custom-dark .nav-link.active {
+    color: #3b82f6 !important;
+    /* Primary Blue highlight */
+}
+
+.navbar-custom-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-custom-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Auth Buttons in Dark Mode */
+.btn-login-dark {
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    color: white;
+    border: none;
+    transition: transform 0.2s;
+}
+
+.btn-login-dark:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+    color: white;
+}
+
+.btn-regsiter-link-dark {
+    color: #94a3b8 !important;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-regsiter-link-dark:hover {
+    color: white !important;
+}
+
+/* Invert logo for dark mode if it's a dark image */
